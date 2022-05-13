@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-scroll';
+import { navigation } from '../data'
 
-// import woman image
-import WomanImg from '../assets/img/banner-woman2.webp';
 
 const Hero = () => {
   return (
@@ -13,21 +13,27 @@ const Hero = () => {
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-lg text-accent text-md mb-[22px]'>
-              Hey, I'm Jane! 👋
+              Hey, je m'appelle Paul! 👋
             </p>
             <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-              I Build & Design <br /> Web Interfaces.
+              Développeur Full Stack.
             </h1>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
+             Titulaire d'un diplôme de développeur web (BTS). J'ai acquis des compétences en React, NodeJS, MySQL et Tailwind. Je suis à la recherche de ma première expérience.
             </p>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
-              Work with me
-            </button>
-          </div>
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={WomanImg} alt='' />
+            <Link 
+              to="portfolio" 
+              activeClass='active' 
+              spy={true} 
+              smooth={true} 
+              duration={500} 
+              offset={-70} 
+              className='transition-all duration-300'
+              >
+              <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
+                Mes projets
+              </button>
+            </Link>
           </div>
         </div>
       </div>
