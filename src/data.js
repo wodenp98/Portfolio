@@ -1,6 +1,7 @@
 //  icons
 import {
   FiYoutube,
+  FiLinkedin,
   FiInstagram,
   FiGithub,
   FiDribbble,
@@ -71,7 +72,7 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
+    icon: <FiLinkedin />,
     href: '',
   },
   {
@@ -88,29 +89,6 @@ export const social = [
   },
 ];
 
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
 
 // projects
 export const projectsData = [
