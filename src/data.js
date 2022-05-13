@@ -1,24 +1,10 @@
 //  icons
 import {
-  FiYoutube,
   FiLinkedin,
-  FiInstagram,
   FiGithub,
-  FiDribbble,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
 } from 'react-icons/fi';
-
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
@@ -48,20 +34,8 @@ export const navigation = [
     href: 'home',
   },
   {
-    name: 'about',
-    href: 'about',
-  },
-  {
     name: 'portfolio',
     href: 'portfolio',
-  },
-  {
-    name: 'services',
-    href: 'services',
-  },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
   },
   {
     name: 'contact',
@@ -76,15 +50,7 @@ export const social = [
     href: '',
   },
   {
-    icon: <FiInstagram />,
-    href: '',
-  },
-  {
     icon: <FiGithub />,
-    href: '',
-  },
-  {
-    icon: <FiDribbble />,
     href: '',
   },
 ];
@@ -173,35 +139,6 @@ export const skills = [
     image: SkillImg8,
   },
 ];
-
-// services
-export const services = [
-  {
-    icon: <FiLayout />,
-    name: 'Web Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiSettings />,
-    name: 'Web Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiPenTool />,
-    name: 'Branding',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiTag />,
-    name: 'SEO',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-];
-
 
 
 // contact
