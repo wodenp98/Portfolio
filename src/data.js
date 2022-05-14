@@ -61,54 +61,38 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Reservia',
+    description: 'HTML, CSS',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: 'Oh My Food',
+    description: 'HTML, SASS',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'La Chouette Agence',
+    description: 'HTML, CSS, SEO',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Kanap',
+    description: 'Vanilla Javascript',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: 'Hot Takes',
+    description: 'NodeJs, Express, MongoDB',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
-];
-
-// projects
-export const projectsNav = [
-  {
-    name: 'all',
-  },
-  {
-    name: 'UI/UX Design',
-  },
-  {
-    name: 'web development',
-  },
-  {
-    name: 'branding',
+    name: 'Groupomania',
+    description: 'React, SASS, NodeJS, MySQL',
   },
 ];
 
