@@ -16,6 +16,15 @@ import Project6 from './assets/img/projects/Groupomania.PNG';
 import Project7 from './assets/img/projects/BlackJack.PNG';
 import Project8 from './assets/img/projects/Convertisseur eau.PNG';
 import Project9 from './assets/img/projects/Extension chrome.PNG';
+import Project10 from './assets/img/projects/AirbnbClone.PNG';
+import Project11 from './assets/img/projects/Dark Mode.PNG';
+import Project12 from './assets/img/projects/GeneratePassword.PNG';
+import Project13 from './assets/img/projects/Invoice Creator.PNG';
+import Project14 from './assets/img/projects/Meme Generator.PNG';
+import Project15 from './assets/img/projects/Travel Journal.PNG';
+import Project16 from './assets/img/projects/Notes App.PNG';
+
+
 
 
 // skills images
@@ -115,6 +124,48 @@ export const projectsData = [
     image: Project9,
     name: 'Extension Chrome',
     description: 'Javascript, CSS',
+  },
+  {
+    id: '10',
+    image: Project10,
+    name: 'Clone Airbnb',
+    description: 'React, CSS',
+  },
+  {
+    id: '11',
+    image: Project11,
+    name: 'Dark Mode',
+    description: 'React',
+  },
+  {
+    id: '12',
+    image: Project12,
+    name: 'Générateur de mot de passe',
+    description: 'Javascript, CSS',
+  },
+  {
+    id: '13',
+    image: Project13,
+    name: 'Création de facture',
+    description: 'Javascript, CSS',
+  },
+  {
+    id: '14',
+    image: Project14,
+    name: 'Générateur de meme',
+    description: 'React',
+  },
+  {
+    id: '15',
+    image: Project15,
+    name: 'Journal de voyage',
+    description: 'React',
+  },
+  {
+    id: '16',
+    image: Project16,
+    name: 'Notes',
+    description: 'React',
   },
   
 ];
