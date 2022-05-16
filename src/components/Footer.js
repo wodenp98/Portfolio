@@ -20,7 +20,7 @@ const Footer = () => {
             })}
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2022 Paul Vigneron. All rights reserved.
+            &copy; 2022 Paul Vigneron. Tous droits réservés.
           </p>
         </div>
       </div>

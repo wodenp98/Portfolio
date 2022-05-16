@@ -10,11 +10,9 @@ const Contact = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
-            Contact me
+            Contact 
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
           </p>
         </div>
         <div
@@ -32,7 +30,6 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className='font-body text-xl mb-1'>{title}</h4>
-                    <p className='mb-1 text-paragraph'>{subtitle}</p>
                     <p className='text-accent font-normal '>{description}</p>
                   </div>
                 </div>
@@ -43,16 +40,16 @@ const Contact = () => {
             className='space-y-8 w-full max-w-[780px]'
           >
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+              <input className='input' type='text' placeholder='Votre nom' />
+              <input className='input' type='email' placeholder='Votre email' />
             </div>
-            <input className='input' type='text' placeholder='Subject' />
+            <input className='input' type='text' placeholder='Objet' />
             <textarea
               className='textarea'
-              placeholder='Your message'
+              placeholder='Votre message'
             ></textarea>
             <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
-              Send message
+              Envoyer
             </button>
           </form>
         </div>

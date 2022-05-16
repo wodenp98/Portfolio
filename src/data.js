@@ -3,7 +3,6 @@ import {
   FiLinkedin,
   FiGithub,
   FiMail,
-  FiMapPin,
 } from 'react-icons/fi';
 
 // projects images
@@ -60,11 +59,11 @@ export const navigation = [
 export const social = [
   {
     icon: <FiLinkedin />,
-    href: '',
+    href: 'https://www.linkedin.com/in/paul-vigneron98',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/wodenp98',
   },
 ];
 
@@ -203,14 +202,8 @@ export const skills = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: 'Une question?',
+    description: 'Envoyez-moi un mail à paulvigneron4698@gmail.com',
   },
-  {
-    icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
-  },
+  
 ];
