@@ -7,12 +7,16 @@ import {
 } from 'react-icons/fi';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/Reservia.PNG';
+import Project2 from './assets/img/projects/Oh My Food.PNG';
+import Project3 from './assets/img/projects/La Chouette Agence.PNG';
+import Project4 from './assets/img/projects/Kanap.PNG';
+import Project5 from './assets/img/projects/Hot Takes.PNG';
+import Project6 from './assets/img/projects/Groupomania.PNG';
+import Project7 from './assets/img/projects/BlackJack.PNG';
+import Project8 from './assets/img/projects/Convertisseur eau.PNG';
+import Project9 from './assets/img/projects/Extension chrome.PNG';
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -94,6 +98,25 @@ export const projectsData = [
     name: 'Groupomania',
     description: 'React, SASS, NodeJS, MySQL',
   },
+  {
+    id: '7',
+    image: Project7,
+    name: 'BlackJack',
+    description: 'Javascript, SASS',
+  },
+  {
+    id: '8',
+    image: Project8,
+    name: 'Convertisseur d\'eau',
+    description: 'React',
+  },
+  {
+    id: '9',
+    image: Project9,
+    name: 'Extension Chrome',
+    description: 'Javascript, CSS',
+  },
+  
 ];
 
 // skill

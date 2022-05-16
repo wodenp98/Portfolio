@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 // import data
 import { projectsData } from '../data';
-import { projectsNav } from '../data';
 
 // import components
 import Project from './Project';
@@ -10,7 +9,6 @@ import Project from './Project';
 const Projects = () => {
   const [item, setItem] = useState({ name: 'all' });
   const [projects, setProjects] = useState([]);
-  const [active, setActive] = useState(0);
 
   useEffect(() => {
     // get projects based on item
@@ -23,11 +21,6 @@ const Projects = () => {
       setProjects(newProjects);
     }
   }, [item]);
-
-  const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent.toLowerCase() });
-    setActive(index);
-  };
 
   return (
     <div>
