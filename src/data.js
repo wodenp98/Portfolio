@@ -75,6 +75,8 @@ export const projectsData = [
     image: Project1,
     name: 'Reservia',
     description: 'HTML, CSS',
+    href: 'https://github.com/wodenp98/PaulVigneron_2_03092021',
+    video:'https://www.loom.com/share/481c8930ebcc4612b59b5331df50c064'
   },
   {
     id: '2',
