@@ -13,15 +13,10 @@ import Project4 from './assets/img/projects/Kanap.PNG';
 import Project5 from './assets/img/projects/Hot Takes.PNG';
 import Project6 from './assets/img/projects/Groupomania.PNG';
 import Project7 from './assets/img/projects/BlackJack.PNG';
-import Project8 from './assets/img/projects/Convertisseur eau.PNG';
-import Project9 from './assets/img/projects/Extension chrome.PNG';
-import Project10 from './assets/img/projects/AirbnbClone.PNG';
-import Project11 from './assets/img/projects/Dark Mode.PNG';
-import Project12 from './assets/img/projects/GeneratePassword.PNG';
-import Project13 from './assets/img/projects/Invoice Creator.PNG';
-import Project14 from './assets/img/projects/Meme Generator.PNG';
-import Project15 from './assets/img/projects/Travel Journal.PNG';
-import Project16 from './assets/img/projects/Notes App.PNG';
+import Project8 from './assets/img/projects/Extension chrome.PNG';
+import Project9 from './assets/img/projects/GeneratePassword.PNG';
+import Project10 from './assets/img/projects/Meme Generator.PNG';
+import Project11 from './assets/img/projects/Notes App.PNG';
 
 
 
@@ -83,90 +78,80 @@ export const projectsData = [
     image: Project2,
     name: 'Oh My Food',
     description: 'HTML, SASS',
+    href:'https://github.com/wodenp98/PaulVigneron_3_23092021',
+    video:'https://www.loom.com/share/6e3cd69c02184f50a99d0660a631683a',
   },
   {
     id: '3',
     image: Project3,
     name: 'La Chouette Agence',
     description: 'HTML, CSS, SEO',
+    href:'https://github.com/wodenp98/PaulVigneron_4_26102021',
+    video:'https://www.loom.com/share/d1979610300d4a81995004c7694cc356',
   },
   {
     id: '4',
     image: Project4,
     name: 'Kanap',
     description: 'Vanilla Javascript',
+    href:'https://github.com/wodenp98/PaulVigneron_5_17112021',
+    video:'https://www.loom.com/share/f2f474d00d0c46eca56c21b533fca1a1',
   },
   {
     id: '5',
     image: Project5,
     name: 'Hot Takes',
     description: 'NodeJs, Express, MongoDB',
+    href:'https://github.com/wodenp98/PaulVigneron_6_27122021',
+    video:'https://www.loom.com/share/749a1e620aa0401aa251507cd3a280d7',
   },
   {
     id: '6',
     image: Project6,
     name: 'Groupomania',
     description: 'React, SASS, NodeJS, MySQL',
+    href:'https://github.com/wodenp98/PaulVigneron_7_26012022',
+    video:'https://www.loom.com/share/6197758fffda45288b3967c4dfb15a66',
   },
   {
     id: '7',
     image: Project7,
     name: 'BlackJack',
     description: 'Javascript, SASS',
+    href:'https://github.com/wodenp98/BlackJack-Game',
+    video:'https://www.loom.com/share/ea3b73aa794e445481dc457c589cec78',
   },
   {
     id: '8',
     image: Project8,
-    name: 'Convertisseur d\'eau',
-    description: 'React',
+    name: 'Extension Chrome',
+    description: 'Javascript, CSS',
+    href:'https://github.com/wodenp98/Extension-Chrome',
+    video:'',
   },
   {
     id: '9',
     image: Project9,
-    name: 'Extension Chrome',
+    name: 'Générateur de mot de passe',
     description: 'Javascript, CSS',
+    href:'https://github.com/wodenp98/Generate-Password',
+    video:'',
   },
   {
     id: '10',
     image: Project10,
-    name: 'Clone Airbnb',
-    description: 'React, CSS',
+    name: 'Générateur de meme',
+    description: 'React',
+    href:'https://github.com/wodenp98/Meme-Generator',
+    video:'',
   },
   {
     id: '11',
     image: Project11,
-    name: 'Dark Mode',
-    description: 'React',
-  },
-  {
-    id: '12',
-    image: Project12,
-    name: 'Générateur de mot de passe',
-    description: 'Javascript, CSS',
-  },
-  {
-    id: '13',
-    image: Project13,
-    name: 'Création de facture',
-    description: 'Javascript, CSS',
-  },
-  {
-    id: '14',
-    image: Project14,
-    name: 'Générateur de meme',
-    description: 'React',
-  },
-  {
-    id: '15',
-    image: Project15,
-    name: 'Journal de voyage',
-    description: 'React',
-  },
-  {
-    id: '16',
-    image: Project16,
     name: 'Notes',
     description: 'React',
+    href:'https://github.com/wodenp98/Notes-App',
+    video:'',
   },
   
 ];
