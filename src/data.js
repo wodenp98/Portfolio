@@ -127,7 +127,7 @@ export const projectsData = [
     name: 'Extension Chrome',
     description: 'Javascript, CSS',
     href:'https://github.com/wodenp98/Extension-Chrome',
-    video:'',
+    video:'https://www.loom.com/share/cee73f75aa364cbb9a2a985bda5dfbb6',
   },
   {
     id: '9',
@@ -135,7 +135,7 @@ export const projectsData = [
     name: 'Générateur de mot de passe',
     description: 'Javascript, CSS',
     href:'https://github.com/wodenp98/Generate-Password',
-    video:'',
+    video:'https://www.loom.com/share/ddc4f04352ee433cb1bf834d040efb25',
   },
   {
     id: '10',
@@ -143,7 +143,7 @@ export const projectsData = [
     name: 'Générateur de meme',
     description: 'React',
     href:'https://github.com/wodenp98/Meme-Generator',
-    video:'',
+    video:'https://www.loom.com/share/e57060034f4546a3ab79ff9f2afc5b4d',
   },
   {
     id: '11',
@@ -151,7 +151,7 @@ export const projectsData = [
     name: 'Notes',
     description: 'React',
     href:'https://github.com/wodenp98/Notes-App',
-    video:'',
+    video:'https://www.loom.com/share/55a98e70faf94aa481837a036efc8763',
   },
   
 ];
